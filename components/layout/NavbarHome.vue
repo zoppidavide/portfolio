@@ -2,12 +2,14 @@
   <div class='row row-navbar justify-content-between align-items-center mx-3'>
     <div class='col-6'>
       <b-link to="index">
-        <button class="btn btn-primary">Hi! I'm Davide</button>
+<!--        <button class="btn btn-outline-primary">Davide Zoppi</button>-->
+        <b-button variant="outline-primary">Hi! I'm Davide</b-button>
       </b-link>
     </div>
     <div class='col-6 d-flex justify-content-end' >
       <b-link to="about">
-        <button class="btn btn-outline-primary" >About me</button>
+        <b-button class='btn-primary'>About me</b-button>
+<!--        <button class="btn btn-primary" >About me</button>-->
       </b-link>
     </div>
   </div>
@@ -22,7 +24,7 @@ export default {
 <style>
 
 .btn-primary {
-  width: 170px;
+  width: 120px;
   background-color: black;
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
@@ -32,7 +34,7 @@ export default {
 
 .btn-primary:hover {
   opacity: 80%;
-  width: 170px;
+  width: 120px;
   background-color: black;
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
@@ -40,7 +42,7 @@ export default {
 }
 
 .btn-outline-primary {
-  width: 120px;
+  width: 170px;
   border: 2px solid #000000;
   color: #000000;
   border-radius: 30px;

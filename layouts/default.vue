@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class='container-fluid'>
-      <LayoutNavbar />
+<!--      <LayoutNavbar />-->
     </div>
     <Nuxt/>
   </div>
@@ -101,6 +101,12 @@ export default {
     font-family: 'AkkuratLL-Light';
     font-size: 36px;
     line-height: 40px;
+  }
+
+  .BigAFTitle {
+    font-family: 'RedHatDisplay-SemiBold';
+    font-size: 68px;
+    line-height: 72px;
   }
 
   .EyecatchingTitle {
