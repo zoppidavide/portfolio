@@ -11,80 +11,25 @@
       </div>
     </div>
 
-    <div class='row row-info'>
-      <div class='col-4 colonna-cv'>
-        <div class='EyecatchingTitle'>
-          EXPERIENCES
+    <div class='row-progetti'>
+      <div class='row mx-3 pt-5 justify-content-between align-items-center'>
+        <div class='col-6'>
+          <div class='KindaBigTitle'>
+            TAKE A LOOK AT<br>MY PROJECTS
+          </div>
         </div>
-        <div class='ReadableText'>
-          March 2022 - October 2022<br>
-          <span class="bold">Motion and graphic design intern<br>
-          at Politecnico di Milano</span><br>
-          <br>
-          September 2021 - October 2022<br>
-          <span class="bold">UX Design and branding<br>
-          at Paolo VI secondary school</span><br>
-          <br>
-          June 2020 - December 2020<br>
-          <span class="bold">Motion designer and social media<br>
-          content creation at Storytel</span><br>
-          <br>
-          September 2019 - October 2020<br>
-          <span class="bold">Motion designer for Ziio Jewels</span><br>
-        </div>
-        <div class='EyecatchingTitle'>
-          DOWNLOAD CV
-        </div>
-        <a href="https://getbootstrap.com/docs/4.3/layout/grid/"><img src = "~/assets/arrow.svg" alt="GoTo"/></a>
+          <div class='col-6'>
+            <div class='ReadableTextDefault'>
+              Between 2018 and 2023 I had been enrolled<br>
+              in Communication Design at Politecnico di Milano.<br>
+              In these years i have explored many fields of this<br>
+              discipline, with projects inside and outside<br>
+              of the courses, with the precise aim of finding<br>
+              my place in the world, at least one to work in.<br>
+            </div>
+          </div>
       </div>
-      <div class='col-4 colonna-cv'>
-        <div class='EyecatchingTitle'>
-          LANGUAGES
-        </div>
-        <div class='ReadableText'>
-          Italian<br>
-          <span class="bold">First language</span><br>
-          <br>
-          English<br>
-          <span class="bold">B2 IELTS Certificate (2018)</span><br>
-        </div>
-        <div class='EyecatchingTitle'>
-          EDUCATION
-        </div>
-        <div class='ReadableText'>
-          2021 - On going<br>
-          <span class="bold">Master Degree in Communication<br>
-          Design at Politecnico di Milano</span><br>
-          <br>
-          2018 - 2021<br>
-          <span class="bold">Bachelor Degree in Communication<br>
-          Design at Politecnico di Milano</span><br>
-          <br>
-          2013 - 2018<br>
-          <span class="bold">Artistic High School at Fondazione<br>
-          Sacro Cuore, Milano</span><br>
-        </div>
-      </div>
-      <div class='col-4 colonna-cv'>
-        <div class='EyecatchingTitle'>
-          SOFTWARE
-        </div>
-        <div class='ReadableText'>
-          Suite Adobe CC<br>
-          <span class="bold">After Effects, Illustrator, Photoshop, Premiere Pro,
-          Lightroom, InDesign, Audition, Adobe XD</span><br>
-          <br>
-          Suite<br>
-          <span class="bold">Excel, PowerPoint, Word</span><br>
-          <br>
-          Others<br>
-          <span class="bold">Figma, Keynote, Pages</span><br>
-          <br>
-          Coding<br>
-          <span class="bold">HTML, CSS, Bootstrap, Nuxt3, Vue</span><br>
-        </div>
-      </div>
-
+      <LayoutProjects />
     </div>
 
     <LayoutFooter />
@@ -102,5 +47,5 @@ export default {
 </script>
 
 <style>
-
+.container-fluid {width:100%;max-width:none ;padding-left:0;padding-right:0}
 </style>

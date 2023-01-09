@@ -65,6 +65,17 @@ export default {
   }
 
   .row-info {
+  }
+
+  .classprova {
+    height: 110vh;
+    background-color: white;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    box-shadow: 0px 0px 50px 0px #C4C4C4;
+  }
+
+  .row-progetti {
     height: 110vh;
     background-color: white;
     border-top-left-radius: 60px;
@@ -109,9 +120,21 @@ export default {
     line-height: 72px;
   }
 
+  .KindaBigTitle {
+    font-family: 'RedHatDisplay-SemiBold';
+    font-size: 48px;
+    line-height: 56px;
+  }
+
   .EyecatchingTitle {
     font-family: 'RedHatDisplay-SemiBold';
     font-size: 36px;
+  }
+
+  .ReadableTextDefault {
+    font-family: 'AkkuratLL-Light';
+    font-size: 20px;
+    line-height: 22px;
   }
 
   .ReadableText {
@@ -120,6 +143,20 @@ export default {
     line-height: 22px;
     margin-top: 25px;
     margin-bottom: 50px;
+  }
+
+  .CardTitle {
+    font-family: 'AkkuratLL-Bold';
+    margin-top: 20px;
+    font-size: 22px;
+    line-height: 22px;
+  }
+
+  .CardText {
+    font-family: 'AkkuratLL-Light';
+    font-size: 20px;
+    line-height: 22px;
+    margin-top: 10px;
   }
 
   .bold {

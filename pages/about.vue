@@ -1,7 +1,7 @@
 <template>
   <div class='container-fluid'>
 
-    <LayoutNavbar />
+    <LayoutNavbarAbout />
 
     <div class='row row-herosection align-items-center mx-3'>
       <div class="col-8">
@@ -14,7 +14,8 @@
       </div>
     </div>
 
-    <div class='row row-info'>
+    <div class='container-fluid classprova'>
+      <div class='row row-info mx-3'>
       <div class='col-4 colonna-cv'>
         <div class='EyecatchingTitle'>
           EXPERIENCES
@@ -89,6 +90,7 @@
       </div>
 
     </div>
+    </div>
 
     <LayoutFooter />
 
@@ -105,5 +107,5 @@ export default {
 </script>
 
 <style>
-
+.container-fluid {width:100%;max-width:none ;padding-left:0;padding-right:0}
 </style>

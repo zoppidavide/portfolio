@@ -2,12 +2,12 @@
   <div class='row row-navbar justify-content-between align-items-center mx-3'>
     <div class='col-6'>
       <b-link to="index">
-        <button class="btn btn-primary">Hi! I'm Davide</button>
+        <button class="btn btn-primary-about">Hi! I'm Davide</button>
       </b-link>
     </div>
     <div class='col-6 d-flex justify-content-end' >
       <b-link to="about">
-        <button class="btn btn-outline-primary" >About me</button>
+        <button class="btn btn-outline-about" >About me</button>
       </b-link>
     </div>
   </div>
@@ -15,13 +15,14 @@
 
 <script>
 export default {
-  name: 'Navbar'
+  name: 'NavbarAbout'
 }
 </script>
 
 <style>
 
-.btn-primary {
+.btn-primary-about {
+  color: white;
   width: 170px;
   background-color: black;
   border-radius: 30px;
@@ -30,7 +31,8 @@ export default {
   border: 2px solid #000000;
 }
 
-.btn-primary:hover {
+.btn-primary-about:hover {
+  color: white;
   opacity: 80%;
   width: 170px;
   background-color: black;
@@ -39,7 +41,7 @@ export default {
   font-size: 16px;
 }
 
-.btn-outline-primary {
+.btn-outline-about {
   width: 120px;
   border: 2px solid #000000;
   color: #000000;

@@ -39,6 +39,7 @@ export default {
 
 .row-footer {
   height: 200px;
+  /*background-color: #ECE7E3;*/
   /*border-top-left-radius: 60px;
   border-top-right-radius: 60px;*/
 }
