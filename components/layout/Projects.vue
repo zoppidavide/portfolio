@@ -1,9 +1,10 @@
 <template>
-  <div class='row row-projects mx-3'>
-    <div class='col-4 col-custom'>
-      <div class='card_project'>
-        <div class='card_image1'>
-          <img src="~/assets/AdOk_cover.png" class='img-fluid' alt='Responsive image' />
+  <div class='row row-projects mx-1 mx-lg-3 pt-5'>
+    <div class='col-sm-12 col-lg-4 col-custom pt-5'>
+      <b-link to="about" class='no-underline'>
+      <div class='card_project_1'>
+        <div class='card_image_1'>
+          <img src="~/assets/AdOk_thumbnail.png" class='img-fluid' alt='Responsive image' />
         </div>
         <div class='CardTitle'>
           AdOK: the future is handcrafted
@@ -12,9 +13,11 @@
           An interaction design project with the aim of revitalising Italian craftsmanship
         </div>
       </div>
+      </b-link>
     </div>
 
-    <div class='col-4 col-custom'>
+    <div class='col-sm-12 col-lg-4 col-custom pt-5'>
+      <b-link to="about">
       <div class='card_project'>
         <div class='card_image2'>
           <img src="~/assets/Disruptive_cover.png" class='img-fluid' alt='Responsive image' />
@@ -26,9 +29,10 @@
           A digital first exhibition born in 2020 portraying Sergio Marchionne's life at Fiat
         </div>
       </div>
+      </b-link>
     </div>
 
-    <div class='col-4 col-custom'>
+    <div class='col-sm-12 col-lg-4 col-custom pt-5'>
       <div class='card_project'>
         <div class='card_image3'>
           <img src="~/assets/PaoloVI_cover.png" class='img-fluid' alt='Responsive image' />
@@ -55,14 +59,21 @@ export default {
 
 .row-projects {
   height: 200px;
-  padding-top: 50px;
 }
 
 .card_project {
-
+  color: black;
 }
 
-.card_image1 {
+.card_project_1 {
+  color: black;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+}
+
+.card_image_1 {
   /*background-image: url(~/assets/Disruptive_cover.png);*/
   background-color: #FFFBED;
   border-radius: 30px;
@@ -71,6 +82,16 @@ export default {
   border: 1px solid #000000;
   box-shadow:0px 0px 0px 2px black inset;
 }
+
+.card_project_1 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card_project_1:hover img {
+  transform: scale(1.04);
+}
+
+
 
 .card_image2 {
   /*background-image: url(~/assets/Disruptive_cover.png);*/
@@ -82,6 +103,14 @@ export default {
   box-shadow:0px 0px 0px 2px black inset;
 }
 
+.card_image2 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card_image2 img:hover {
+  transform: scale(1.04);
+}
+
 .card_image3 {
   /*background-image: url(~/assets/Disruptive_cover.png);*/
   background-color: #DDDDDD;
@@ -90,6 +119,14 @@ export default {
   overflow: hidden;
   border: 1px solid #000000;
   box-shadow:0px 0px 0px 2px black inset;
+}
+
+.card_image3 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.card_image3 img:hover {
+  transform: scale(1.04);
 }
 
 /*.image_project img {

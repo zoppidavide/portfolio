@@ -3,36 +3,38 @@
 
     <LayoutNavbarHome />
 
-    <div class='row row-herosection align-items-center mx-3'>
+    <div class='row mx-1 row-herosection align-items-center'>
       <div class="col-12">
         <div class='BigAFTitle'>HI, I’M DAVIDE<br>
-          NOT MUCH TO SAY, EXCEPT<br>THAT I’M INTO COMMUNICATION DESIGN SOMEHOW
+          NOT MUCH TO SAY, EXCEPT THAT I’M INTO COMMUNICATION DESIGN SOMEHOW
         </div>
       </div>
     </div>
 
     <div class='row-progetti'>
-      <div class='row mx-3 pt-5 justify-content-between align-items-center'>
-        <div class='col-6'>
+      <div class='row mx-1 mx-lg-3 pt-5 justify-content-between align-items-center'>
+        <div class='col-lg-4 col-sm-12'>
           <div class='KindaBigTitle'>
-            TAKE A LOOK AT<br>MY PROJECTS
+            TAKE A LOOK AT
+            MY PROJECTS
           </div>
         </div>
-          <div class='col-6'>
+          <div class='col-lg-5 col-sm-12'>
             <div class='ReadableTextDefault'>
-              Between 2018 and 2023 I had been enrolled<br>
-              in Communication Design at Politecnico di Milano.<br>
-              In these years i have explored many fields of this<br>
-              discipline, with projects inside and outside<br>
-              of the courses, with the precise aim of finding<br>
-              my place in the world, at least one to work in.<br>
+              Between 2018 and 2023 I had been enrolled
+              in Communication Design at Politecnico di Milano.
+              In these years i have explored many fields of this
+              discipline, with projects inside and outside
+              of the courses, with the precise aim of finding
+              my place in the world, at least one to work in.
             </div>
           </div>
       </div>
-      <LayoutProjects />
+<!--      <LayoutProjects />-->
+      <LayoutGridNew />
     </div>
 
-    <LayoutFooter />
+<!--    <LayoutFooter />-->
 
   </div>
 </template>

@@ -27,34 +27,7 @@ export default {
     background-color: #F6F2F2;
   }
 
-  .btn-primary {
-    width: 145px;
-    background-color: black;
-    border-radius: 30px;
-    border-style: none;
-    font-family: 'AkkuratLL-Bold';
-    font-size: 16px;
-  }
 
-  .btn-primary:hover {
-    opacity: 80%;
-    width: 145px;
-    background-color: black;
-    border-radius: 30px;
-    font-family: 'AkkuratLL-Bold';
-    font-size: 16px;
-  }
-
-  .btn-outline-primary {
-    width: 125px;
-    opacity: 50%;
-    border: 1px solid #000000;
-    color: #000000;
-    border-radius: 30px;
-    text-decoration-color: black;
-    font-family: 'AkkuratLL-Bold';
-    font-size: 16px;
-  }
   .row-navbar {
     height: 60px;
     background-color: #F5F3F1;
@@ -114,10 +87,20 @@ export default {
     line-height: 40px;
   }
 
-  .BigAFTitle {
-    font-family: 'RedHatDisplay-SemiBold';
-    font-size: 68px;
-    line-height: 72px;
+  @media screen and (max-width: 480px) {
+    .BigAFTitle {
+      font-family: 'RedHatDisplay-SemiBold';
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }
+
+  @media screen and (min-width: 481px) {
+    .BigAFTitle {
+      font-family: 'RedHatDisplay-SemiBold';
+      font-size: 68px;
+      line-height: 72px;
+    }
   }
 
   .KindaBigTitle {
@@ -150,6 +133,12 @@ export default {
     margin-top: 20px;
     font-size: 22px;
     line-height: 22px;
+    color: black;
+  }
+
+  .CardTitle:link, .CardTitle:hover, .CardTitle:visited, .CardTitle:active {
+    text-decoration: none;
+    color: black;
   }
 
   .CardText {
@@ -157,6 +146,12 @@ export default {
     font-size: 20px;
     line-height: 22px;
     margin-top: 10px;
+    color: #808080;
+  }
+
+  .CardText:link, .CardText:hover, .CardText:visited, .CardText:active {
+    text-decoration: none;
+    color: #808080;
   }
 
   .bold {

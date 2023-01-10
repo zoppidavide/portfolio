@@ -1,5 +1,5 @@
 <template>
-  <div class='row row-navbar justify-content-between align-items-center mx-3'>
+  <div class='row row-navbar justify-content-between align-items-center mx-lg-3 mx-sm-1'>
     <div class='col-6'>
       <b-link to="index">
 <!--        <button class="btn btn-outline-primary">Davide Zoppi</button>-->
@@ -29,22 +29,34 @@ export default {
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
   font-size: 16px;
-  border: 2px solid #000000;
+  border: 1px solid #000000;
 }
 
 .btn-primary:hover {
-  opacity: 80%;
+  color: black;
   width: 120px;
-  background-color: black;
+  background-color: white;
+  border-radius: 30px;
+  font-family: 'AkkuratLL-Bold';
+  font-size: 16px;
+  border: 1px solid #000000;
+}
+
+.btn-outline-primary {
+  opacity: 50%;
+  width: 170px;
+  border: 1px solid #000000;
+  color: #000000;
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
   font-size: 16px;
 }
 
-.btn-outline-primary {
+.btn-outline-primary:hover {
+  background-color: black;
   width: 170px;
-  border: 2px solid #000000;
-  color: #000000;
+  border: 1px solid #000000;
+  color: white;
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
   font-size: 16px;
