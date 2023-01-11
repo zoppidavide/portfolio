@@ -2,8 +2,9 @@
   <div class='card'>
     <NuxtLink :to='to' class='no-underline'>
 
-      <div class='card_image'>
-        <img src="~/assets/Disruptive_cover.png" class='img-fluid' alt='Responsive image' />
+      <div class='card_image' style='background-color: var(--color-secondary);'>
+<!--        <img src="~/assets/Disruptive_cover.png" class='img-fluid' alt='Responsive image' />-->
+        <img :src="thumbnail" class=" "/>
       </div>
 
       <div class='CardTitle'>
@@ -41,12 +42,18 @@ export default {
 }
 
 .card_image {
-  background-color: #458FDA;
+  /*background-color: #458FDA;*/
   border-radius: 35px;
   position: relative;
   overflow: hidden;
   border: 1px solid #000000;
   box-shadow:0px 0px 0px 2px black inset;
+}
+
+.card_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card img {

@@ -49,7 +49,7 @@ export default {
   }
 
   .row-progetti {
-    height: 110vh;
+    height: 250vh;
     background-color: white;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;

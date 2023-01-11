@@ -20,7 +20,7 @@
       <b-link to="about">
       <div class='card_project'>
         <div class='card_image2'>
-          <img src="~/assets/Disruptive_cover.png" class='img-fluid' alt='Responsive image' />
+          <img src="~/assets/Disruptive_thumbnail.png" class='img-fluid' alt='Responsive image' />
         </div>
         <div class='CardTitle'>
           Disruptive: the challenge of rebuilding
@@ -35,7 +35,7 @@
     <div class='col-sm-12 col-lg-4 col-custom pt-5'>
       <div class='card_project'>
         <div class='card_image3'>
-          <img src="~/assets/PaoloVI_cover.png" class='img-fluid' alt='Responsive image' />
+          <img src="~/assets/PaoloVI_thumbnail.png" class='img-fluid' alt='Responsive image' />
         </div>
         <div class='CardTitle'>
           Middle School Paolo VI
