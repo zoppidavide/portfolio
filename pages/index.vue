@@ -34,7 +34,7 @@
       <LayoutGridNew />
     </div>
 
-<!--    <LayoutFooter />-->
+    <LayoutFooter />
 
   </div>
 </template>

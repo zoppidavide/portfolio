@@ -1,7 +1,7 @@
 <template>
   <div class='row row-navbar justify-content-between align-items-center mx-3'>
     <div class='col-6'>
-      <b-link to="index">
+      <b-link to="/">
         <button class="btn btn-primary-about">Hi! I'm Davide</button>
       </b-link>
     </div>

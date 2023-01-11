@@ -18,6 +18,21 @@
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.Persona'/>
     </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.MagModa'/>
+    </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.ArmaniSilos'/>
+    </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.Radiomarelli'/>
+    </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.AlbiIllustrati'/>
+    </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.PoliCatto'/>
+    </b-col>
     </div>
 </template>
 
@@ -65,8 +80,43 @@ export default {
         Persona: {
           title: 'Persona',
           thumbnail: require('~/assets/Persona_thumbnail.png'),
-          bio: 'A speculative narration on the topic of the mask',
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol6',
+          to: "about"
+        },
+        MagModa: {
+          title: 'Mag Moda: a SME digital transformation',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
+          to: "about"
+        },
+        ArmaniSilos: {
+          title: 'Armani Silos',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
+          to: "about"
+        },
+        Radiomarelli: {
+          title: 'Radiomarelli',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
+          to: "about"
+        },
+        AlbiIllustrati: {
+          title: 'Albi Illustrati',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
+          to: "about"
+        },
+        PoliCatto: {
+          title: 'Poli - Catto',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
           to: "about"
         },
       },
@@ -99,6 +149,14 @@ export default {
 
 .bgcol5 {
   --color-secondary: #FAFAFA;
+}
+
+.bgcol6 {
+  --color-secondary: #ebedec;
+}
+
+.bgcol7 {
+  --color-secondary: #c9c9c9;
 }
 
 </style>

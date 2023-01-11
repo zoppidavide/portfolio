@@ -71,6 +71,7 @@ export default {
 
 .no-underline:hover {
   text-decoration: none;
+  color: black;
 }
 
 .card_image_1 {

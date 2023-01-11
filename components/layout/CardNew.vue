@@ -46,7 +46,7 @@ export default {
   border-radius: 35px;
   position: relative;
   overflow: hidden;
-  border: 1px solid #000000;
+  /*border: 1px solid #FFFFFF;*/
   box-shadow:0px 0px 0px 2px black inset;
 }
 

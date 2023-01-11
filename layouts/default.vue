@@ -24,13 +24,13 @@ export default {
 <style>
 
   body {
-    background-color: #F6F2F2;
+    background-color: #ECE7E3;
   }
 
 
   .row-navbar {
     height: 60px;
-    background-color: #F5F3F1;
+    background-color: #ECE7E3;
   }
 
   .row-herosection {
@@ -49,7 +49,7 @@ export default {
   }
 
   .row-progetti {
-    height: 250vh;
+    padding-bottom: 100px;
     background-color: white;
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
@@ -126,12 +126,13 @@ export default {
     line-height: 22px;
     margin-top: 25px;
     margin-bottom: 50px;
+    color: black;
   }
 
   .CardTitle {
     font-family: 'AkkuratLL-Bold';
     margin-top: 20px;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 22px;
     color: black;
   }
@@ -143,7 +144,7 @@ export default {
 
   .CardText {
     font-family: 'AkkuratLL-Light';
-    font-size: 20px;
+    font-size: 18px;
     line-height: 22px;
     margin-top: 10px;
     color: #808080;

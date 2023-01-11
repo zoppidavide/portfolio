@@ -7,19 +7,19 @@
         <img src = "~/assets/Pure_arrow.svg" alt="GoTo"/>
       </div>
     <div class='col-2 col-footer'>
-      <div class='ReadableText'>
+      <a href="https://www.linkedin.com/in/davide-zoppi-396462209/" class='no-underline'> <div class='ReadableText'>
         LinkedIn
-      </div>
+      </div> </a>
     </div>
     <div class='col-2 col-footer'>
-      <div class='ReadableText'>
+      <a href="https://www.instagram.com/dazonnnn/" class='no-underline'> <div class='ReadableText'>
         Instagram
-      </div>
+      </div> </a>
     </div>
     <div class='col-2 col-footer'>
-      <div class='ReadableText'>
+      <a href="https://t.me/dazonnnnn" class='no-underline'> <div class='ReadableText'>
         Telegram
-      </div>
+      </div> </a>
     </div>
     <div class='col-2 col-footer'>
       <div class='ReadableText'>
