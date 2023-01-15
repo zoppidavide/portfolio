@@ -1,5 +1,5 @@
 <template>
-  <div class='row row-navbar justify-content-between align-items-center mx-lg-3 mx-sm-1'>
+  <div class='row row-navbar justify-content-between align-items-center mx-1 mx-lg-3'>
     <div class='col-6'>
       <b-link to="/">
 <!--        <button class="btn btn-outline-primary">Davide Zoppi</button>-->

@@ -20,8 +20,11 @@ export default {
 }
 </script>
 
-
 <style>
+
+html {
+  scroll-behavior: smooth;
+}
 
   body {
     background-color: #ECE7E3;
@@ -34,8 +37,12 @@ export default {
   }
 
   .row-herosection {
-    height: 90vh;
+    height: 45vh;
   }
+
+.row-herosection2 {
+  height: 35vh;
+}
 
   .row-info {
   }
@@ -90,23 +97,65 @@ export default {
   @media screen and (max-width: 480px) {
     .BigAFTitle {
       font-family: 'RedHatDisplay-SemiBold';
-      font-size: 40px;
-      line-height: 44px;
+      font-size: 32px;
+      line-height: 36px;
+      text-align: center;
     }
+
+    .KindaBigTitle {
+      font-family: 'RedHatDisplay-SemiBold';
+      font-size: 32px;
+      line-height: 36px;
+    }
+
+    .CardTitle {
+      font-family: 'AkkuratLL-Bold';
+      margin-top: 15px;
+      font-size: 20px;
+      line-height: 22px;
+      color: black;
+    }
+
+    .CardText {
+      font-family: 'AkkuratLL-Light';
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 5px;
+      color: #808080;
+    }
+
   }
 
   @media screen and (min-width: 481px) {
     .BigAFTitle {
       font-family: 'RedHatDisplay-SemiBold';
-      font-size: 68px;
-      line-height: 72px;
+      font-size: 48px;
+      line-height: 56px;
+      text-align: center;
     }
-  }
 
-  .KindaBigTitle {
-    font-family: 'RedHatDisplay-SemiBold';
-    font-size: 48px;
-    line-height: 56px;
+    .KindaBigTitle {
+      font-family: 'RedHatDisplay-SemiBold';
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    .CardTitle {
+      font-family: 'AkkuratLL-Bold';
+      margin-top: 20px;
+      font-size: 20px;
+      line-height: 22px;
+      color: black;
+    }
+
+    .CardText {
+      font-family: 'AkkuratLL-Light';
+      font-size: 18px;
+      line-height: 22px;
+      margin-top: 10px;
+      color: #808080;
+    }
+
   }
 
   .EyecatchingTitle {
@@ -129,26 +178,11 @@ export default {
     color: black;
   }
 
-  .CardTitle {
-    font-family: 'AkkuratLL-Bold';
-    margin-top: 20px;
-    font-size: 20px;
-    line-height: 22px;
-    color: black;
-  }
-
   .CardTitle:link, .CardTitle:hover, .CardTitle:visited, .CardTitle:active {
     text-decoration: none;
     color: black;
   }
 
-  .CardText {
-    font-family: 'AkkuratLL-Light';
-    font-size: 18px;
-    line-height: 22px;
-    margin-top: 10px;
-    color: #808080;
-  }
 
   .CardText:link, .CardText:hover, .CardText:visited, .CardText:active {
     text-decoration: none;
@@ -158,5 +192,37 @@ export default {
   .bold {
     font-family: AkkuratLL-Bold;
   }
+
+  .huge {
+    width: 300px;
+    border: 2px solid #000000;
+    color: #000000;
+    border-radius: 45px;
+    font-family: 'RedHatDisplay-SemiBold';
+    font-size: 24px;
+    background-color: white;
+  }
+
+.huge:hover {
+  width: 300px;
+  border: 2px solid #000000;
+  color: #FFFFFF;
+  border-radius: 45px;
+  font-family: 'RedHatDisplay-SemiBold';
+  font-size: 24px;
+  background-color: black;
+}
+
+ .huge span.icon-arrow {
+  background: url(~/assets/ddown.svg) no-repeat;
+  float: left;
+  height: 36px;
+  width: 26px;
+  margin-left: 10px;
+ }
+
+.huge:hover span.icon-arrow {
+  background: url(~/assets/ddown-white.svg) no-repeat;
+}
 
 </style>

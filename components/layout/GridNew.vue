@@ -1,5 +1,5 @@
 <template>
-  <div class='row mx-1 mx-lg-3 pt-5'>
+  <div class='row mx-1 mx-lg-3 pt-3 pt-lg-5'>
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.AdOk'/>
     </b-col>
@@ -127,9 +127,18 @@ export default {
 
 <style>
 
-.prova {
-  padding-top: 30px;
+@media screen and (min-width: 481px) {
+  .prova {
+    padding-top: 30px;
+  }
 }
+
+@media screen and (max-width: 480px) {
+  .prova {
+    padding-top: 30px;
+  }
+}
+
 
 .bgcol1 {
   --color-secondary: #FFFBED;
