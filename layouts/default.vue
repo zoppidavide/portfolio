@@ -30,9 +30,12 @@ html {
     background-color: #ECE7E3;
   }
 
+.row-heroabout {
+  height: 85vh;
+}
 
   .row-navbar {
-    height: 60px;
+    height: 80px;
     background-color: #ECE7E3;
   }
 

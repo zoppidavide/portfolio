@@ -3,7 +3,7 @@
 
     <LayoutNavbarAbout />
 
-    <div class='row row-herosection align-items-center mx-3'>
+    <div class='row row-heroabout align-items-center mx-3'>
       <div class="col-8">
         <div class='testone'>Mi chiamo Gennaro Esposito, sono figlio di un padre camorrista e una madre pasticcera, da loro ho compreso l’importanza dell’intraprendenza. Il mio approccio al design è di tipo scontroso.<br>
           <br>Negli anni dei miei studi presso l’università della strada Federico II a Napoli mi sono appassionato al design degli eventi, in particolare matrimoni, cresime e battesimi napoletani, ma anche funerali della famiglia Casamonica. Quando non sono con la mia ragazza Annunziata e non sto facendo estorsioni o scambi di persona penso al design. Jamm’è Ja!
