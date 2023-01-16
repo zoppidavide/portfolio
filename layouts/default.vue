@@ -203,7 +203,7 @@ html {
     border-radius: 45px;
     font-family: 'RedHatDisplay-SemiBold';
     font-size: 24px;
-    background-color: white;
+    background-color: #ECE7E3;
   }
 
 .huge:hover {

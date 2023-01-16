@@ -16,10 +16,10 @@
       <LayoutCardNew v-bind='projects.LessicoVintage'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.Persona'/>
+      <LayoutCardNew v-bind='projects.MagModa'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.MagModa'/>
+      <LayoutCardNew v-bind='projects.Persona'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.ArmaniSilos'/>
@@ -86,16 +86,16 @@ export default {
         },
         MagModa: {
           title: 'Mag Moda: a SME digital transformation',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          thumbnail: require('~/assets/MagModa_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
-          class: 'bgcol7',
+          class: 'bgcol8',
           to: "about"
         },
         ArmaniSilos: {
           title: 'Armani Silos',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          thumbnail: require('~/assets/ArmaniSilos_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
-          class: 'bgcol7',
+          class: 'bgcol9',
           to: "about"
         },
         Radiomarelli: {
@@ -166,6 +166,14 @@ export default {
 
 .bgcol7 {
   --color-secondary: #c9c9c9;
+}
+
+.bgcol8 {
+  --color-secondary: #F45733;
+}
+
+.bgcol9 {
+  --color-secondary: #dddfe5;
 }
 
 </style>

@@ -1,10 +1,10 @@
 <template>
   <div class='row row-footer mx-3'>
-      <div class='col-4 col-footer'>
+      <div class='col-6 col-footer'>
         <div class='EyecatchingTitle'>
           LET'S LINK
         </div>
-        <img src = "~/assets/Pure_arrow.svg" alt="GoTo"/>
+<!--        <img src = "~/assets/Pure_arrow.svg" alt="GoTo"/>-->
       </div>
     <div class='col-2 col-footer'>
       <a href="https://www.linkedin.com/in/davide-zoppi-396462209/" class='no-underline'> <div class='ReadableText'>
@@ -21,11 +21,11 @@
         Telegram
       </div> </a>
     </div>
-    <div class='col-2 col-footer'>
+<!--    <div class='col-1 col-footer'>
       <div class='ReadableText'>
         Privacy
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

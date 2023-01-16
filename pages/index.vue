@@ -3,7 +3,9 @@
 
     <LayoutNavbarHome />
 
-    <div class='row mx-1 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
+    <LayoutNicetomeetyou />
+
+<!--    <div class='row mx-1 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
       <div class="col-12">
         <div class='BigAFTitle'>
           Hi, I’m Davide, 23 yo italian communication<br>
@@ -11,7 +13,7 @@
           in Communication Master Degree at Polimi<br>
         </div>
       </div>
-    </div>
+    </div>-->
 
     <div class='row mx-1 mx-lg-3 mt-3 row-herosection2 align-items-start d-flex justify-content-center'>
       <a href="#mieiprogetti"> <b-button class="huge mt-3 py-2 align-items-center justify-content-between"><span class="icon-arrow"></span>SELECTED WORKS<span></span></b-button> </a>

@@ -24,6 +24,7 @@ export default {
 <style>
 
 .btn-primary {
+  color: #ECE7E3;
   width: 120px;
   background-color: black;
   border-radius: 30px;
@@ -34,16 +35,11 @@ export default {
 
 .btn-primary:hover {
   color: black;
-  width: 120px;
-  background-color: white;
-  border-radius: 30px;
-  font-family: 'AkkuratLL-Bold';
-  font-size: 16px;
+  background-color: #ECE7E3;
   border: 2px solid #000000;
 }
 
 .btn-outline-primary {
-  opacity: 50%;
   width: 170px;
   border: 2px solid #000000;
   color: #000000;
@@ -56,10 +52,7 @@ export default {
   background-color: black;
   width: 170px;
   border: 2px solid #000000;
-  color: white;
-  border-radius: 30px;
-  font-family: 'AkkuratLL-Bold';
-  font-size: 16px;
+  color: #ECE7E3;
 }
 
 </style>
