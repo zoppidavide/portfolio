@@ -102,7 +102,7 @@ html {
       font-family: 'RedHatDisplay-SemiBold';
       font-size: 32px;
       line-height: 36px;
-      text-align: center;
+      text-align: start;
     }
 
     .KindaBigTitle {
@@ -169,13 +169,13 @@ html {
   .ReadableTextDefault {
     font-family: 'AkkuratLL-Light';
     font-size: 20px;
-    line-height: 22px;
+    line-height: 24px;
   }
 
   .ReadableText {
     font-family: 'AkkuratLL-Light';
     font-size: 20px;
-    line-height: 22px;
+    line-height: 24px;
     margin-top: 25px;
     margin-bottom: 50px;
     color: black;
@@ -192,8 +192,8 @@ html {
     color: #808080;
   }
 
-  .bold {
-    font-family: AkkuratLL-Bold;
+  .black {
+    color: #808080;
   }
 
   .huge {
@@ -226,6 +226,85 @@ html {
 
 .huge:hover span.icon-arrow {
   background: url(~/assets/ddown-white.svg) no-repeat;
+}
+
+.hover-underline-animation {
+  display: inline-block;
+  font-family: 'AkkuratLL-Light';
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  color: black;
+  position: relative;
+  /*color: var(--color-primary);*/
+}
+
+.hover-underline-animation:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  /*background-color: var(--color-primary);*/
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+.huge2 {
+  width: 300px;
+  border: 2px solid #000000;
+  color: #000000;
+  border-radius: 45px;
+  font-family: 'RedHatDisplay-SemiBold';
+  font-size: 24px;
+  background-color: #ECE7E3;
+}
+
+.no-underline {
+  color: black;
+}
+
+.no-underline:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.hover-underline-animation_2 {
+  display: inline-block;
+  font-family: 'RedHatDisplay-SemiBold';
+  font-size: 36px;
+  line-height: 22px;
+  color: black;
+  position: relative;
+  /*color: var(--color-primary);*/
+}
+
+.hover-underline-animation_2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 4px;
+  bottom: -4px;
+  left: 0;
+  background-color: black;
+  /*background-color: var(--color-primary);*/
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation_2:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 
 </style>

@@ -9,12 +9,12 @@
 
       <div class='row mx-1 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
           <div class='BigAFTitle'>
-            Hi, I’m Davide, 23 yo italian <span
+            Hi, I’m Davide! An italian <span
 :style="{ color: `hsl(${x}, 80%, 50%)` }"
             class="movearea"
             @mousemove="onMousemove">communication<br>
             and experience designer</span>, currently enrolled<br>
-            in Communication Master Degree at Polimi<br>
+            in Communication Design master degree at Polimi<br>
           </div>
         </div>
 

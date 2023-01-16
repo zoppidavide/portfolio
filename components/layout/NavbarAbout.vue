@@ -22,7 +22,7 @@ export default {
 <style>
 
 .btn-primary-about {
-  color: white;
+  color: #ECE7E3;
   width: 170px;
   background-color: black;
   border-radius: 30px;
@@ -32,22 +32,24 @@ export default {
 }
 
 .btn-primary-about:hover {
-  color: white;
-  opacity: 80%;
-  width: 170px;
-  background-color: black;
-  border-radius: 30px;
-  font-family: 'AkkuratLL-Bold';
-  font-size: 16px;
+  color: black;
+  background-color: #ECE7E3;
+  border: 2px solid #000000;
 }
 
 .btn-outline-about {
   width: 120px;
   border: 2px solid #000000;
-  color: #000000;
+  color: black;
   border-radius: 30px;
   font-family: 'AkkuratLL-Bold';
   font-size: 16px;
+}
+
+.btn-outline-about:hover {
+  border: 2px solid black;
+  background-color: black;
+  color: #ECE7E3;
 }
 
 </style>

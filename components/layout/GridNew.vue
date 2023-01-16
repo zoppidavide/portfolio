@@ -33,6 +33,9 @@
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.PoliCatto'/>
     </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.Negroni'/>
+    </b-col>
     </div>
 </template>
 
@@ -114,6 +117,13 @@ export default {
         },
         PoliCatto: {
           title: 'Poli - Catto',
+          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          class: 'bgcol7',
+          to: "about"
+        },
+        Negroni: {
+          title: 'Negroni',
           thumbnail: require('~/assets/Placeholder_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol7',
