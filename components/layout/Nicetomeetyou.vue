@@ -7,9 +7,9 @@
 <!--      <p>Move your mouse across this div...</p>
       <p>x: {{ x }}</p>-->
 
-      <div class='row mx-1 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
+      <div class='row mx-3 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
           <div class='BigAFTitle'>
-            Hi, I’m Davide! An italian <span
+            Hi, I’m Davide! Italian <span
 :style="{ color: `hsl(${x}, 80%, 50%)` }"
             class="movearea"
             @mousemove="onMousemove">communication<br>

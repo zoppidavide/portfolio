@@ -50,7 +50,7 @@ export default {
           thumbnail: require('~/assets/Disruptive_thumbnail.png'),
           bio: 'A digital first exhibition born in 2020 portraying Sergio Marchionne life at Fiat',
           class: 'bgcol2',
-          to: "about"
+          to: "disruptive"
         },
         AdOk: {
           title: 'AdOk: the future is handcrafted',

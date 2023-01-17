@@ -3,20 +3,20 @@
 
     <LayoutNavbarAbout />
 
-    <div class='row row-heroabout align-items-center mx-3'>
-      <div class="col-8">
+    <div class='row row-heroabout align-items-center mx-1 mx-lg-3'>
+      <div class="col-12 col-lg-8">
         <div class='testone'>Hi! I’m Davide Zoppi, a 23 yo Italian communication and experience designer, based in Milan, Italy. Currently I’m enrolled in the last year of Communication Design master degree at Politecnico di Milano.<br>
           <br>Negli anni dei miei studi presso l’università della strada Federico II a Napoli mi sono appassionato al design degli eventi, in particolare matrimoni, cresime e battesimi napoletani, ma anche funerali della famiglia Casamonica. Quando non sono con la mia ragazza Annunziata e non sto facendo estorsioni o scambi di persona penso al design. Jamm’è Ja!
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-12 col-lg-4">
         <LayoutAboutPhoto />
       </div>
     </div>
 
     <div class='container-fluid classprova'>
-      <div class='row row-info mx-3'>
-      <div class='col-4 colonna-cv'>
+      <div class='row row-info mx-1 mx-lg-3'>
+      <div class='col-12 col-lg-4 colonna-cv'>
         <div class='EyecatchingTitle'>
           EXPERIENCES
         </div>
@@ -36,16 +36,11 @@
           <span class="black">September 2019 - October 2020</span><br>
           Motion designer for Ziio Jewels<br>
         </div>
-        <a href="https://getbootstrap.com/docs/4.3/layout/grid/" class='no-underline'> <div class='d-flex'>
-          <div class='hover-underline-animation_2 mt-2'>
-            DOWNLOAD CV
-          </div>
-          <div class='freccia'>
-            <img src = "~/assets/arrow.svg" alt="GoTo"/>
-          </div>
-        </div> </a>
+        <a href="mailto:zoppi.davide7@gmail.com" class='no-underline'>
+          <button class="BigButton"><span>DOWNLOAD CV</span></button>
+        </a>
       </div>
-      <div class='col-4 colonna-cv'>
+      <div class='col-12 col-lg-4 colonna-cv'>
         <div class='EyecatchingTitle'>
           LANGUAGES
         </div>
@@ -73,7 +68,7 @@
           Sacro Cuore, Milano<br>
         </div>
       </div>
-      <div class='col-4 colonna-cv'>
+      <div class='col-12 col-lg-4 colonna-cv'>
         <div class='EyecatchingTitle'>
           SOFTWARE
         </div>

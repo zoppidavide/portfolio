@@ -30,32 +30,17 @@ html {
     background-color: #ECE7E3;
   }
 
-.row-heroabout {
-  height: 85vh;
-}
-
   .row-navbar {
     height: 80px;
     background-color: #ECE7E3;
   }
 
-  .row-herosection {
-    height: 45vh;
+  .row-navbar-proj {
+    height: 80px;
+    background-color: #ECE7E3;
   }
-
-.row-herosection2 {
-  height: 35vh;
-}
 
   .row-info {
-  }
-
-  .classprova {
-    height: 110vh;
-    background-color: white;
-    border-top-left-radius: 60px;
-    border-top-right-radius: 60px;
-    box-shadow: 0px 0px 50px 0px #C4C4C4;
   }
 
   .row-progetti {
@@ -64,10 +49,6 @@ html {
     border-top-left-radius: 60px;
     border-top-right-radius: 60px;
     box-shadow: 0px 0px 50px 0px #C4C4C4;
-  }
-
-  .colonna-cv {
-    margin-top: 120px;
   }
 
   @font-face {
@@ -91,11 +72,7 @@ html {
     format("opentype");
   }
 
-  .testone {
-    font-family: 'AkkuratLL-Light';
-    font-size: 36px;
-    line-height: 40px;
-  }
+/*SMALL SIZE SCREEN (>481)*/
 
   @media screen and (max-width: 480px) {
     .BigAFTitle {
@@ -104,13 +81,11 @@ html {
       line-height: 36px;
       text-align: start;
     }
-
     .KindaBigTitle {
       font-family: 'RedHatDisplay-SemiBold';
       font-size: 32px;
       line-height: 36px;
     }
-
     .CardTitle {
       font-family: 'AkkuratLL-Bold';
       margin-top: 15px;
@@ -118,7 +93,6 @@ html {
       line-height: 22px;
       color: black;
     }
-
     .CardText {
       font-family: 'AkkuratLL-Light';
       font-size: 18px;
@@ -126,8 +100,35 @@ html {
       margin-top: 5px;
       color: #808080;
     }
-
+    .testone {
+      font-family: 'AkkuratLL-Light';
+      font-size: 24px;
+      line-height: 28px;
+      padding-top: 3vh;
+    }
+    .row-heroabout {
+      padding-top: 5vh;
+    }
+    .classprova {
+      margin-top: 5vh;
+      padding-top: 5vh;
+      background-color: white;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      box-shadow: 0px 0px 50px 0px #C4C4C4;
+    }
+    .colonna-cv {
+      margin-top: 5vh;
+    }
+    .row-herosection {
+      height: 55vh;
+    }
+    .row-herosection2 {
+      height: 25vh;
+    }
   }
+
+/*BIG SIZE SCREEN (<481)*/
 
   @media screen and (min-width: 481px) {
     .BigAFTitle {
@@ -136,13 +137,11 @@ html {
       line-height: 56px;
       text-align: center;
     }
-
     .KindaBigTitle {
       font-family: 'RedHatDisplay-SemiBold';
       font-size: 48px;
       line-height: 56px;
     }
-
     .CardTitle {
       font-family: 'AkkuratLL-Bold';
       margin-top: 20px;
@@ -150,7 +149,6 @@ html {
       line-height: 22px;
       color: black;
     }
-
     .CardText {
       font-family: 'AkkuratLL-Light';
       font-size: 18px;
@@ -158,7 +156,29 @@ html {
       margin-top: 10px;
       color: #808080;
     }
-
+    .testone {
+      font-family: 'AkkuratLL-Light';
+      font-size: 36px;
+      line-height: 40px;
+    }
+    .row-heroabout {
+      height: 85vh;
+    }
+    .classprova {
+      background-color: white;
+      border-top-left-radius: 60px;
+      border-top-right-radius: 60px;
+      box-shadow: 0px 0px 50px 0px #C4C4C4;
+    }
+    .colonna-cv {
+      margin-top: 15vh;
+    }
+    .row-herosection {
+      height: 45vh;
+    }
+    .row-herosection2 {
+      height: 35vh;
+    }
   }
 
   .EyecatchingTitle {
@@ -233,8 +253,8 @@ html {
   font-family: 'AkkuratLL-Light';
   font-size: 20px;
   line-height: 22px;
-  margin-top: 25px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
   color: black;
   position: relative;
   /*color: var(--color-primary);*/
