@@ -73,13 +73,13 @@ html {
 
   @media screen and (max-width: 480px) {
     .BigAFTitle {
-      font-family: 'RedHatDisplay-SemiBold';
+      font-family: 'Red Hat Display';
       font-size: 32px;
       line-height: 36px;
       text-align: start;
     }
     .KindaBigTitle {
-      font-family: 'RedHatDisplay-SemiBold';
+      font-family: 'Red Hat Display';
       font-size: 32px;
       line-height: 36px;
     }
@@ -129,13 +129,13 @@ html {
 
   @media screen and (min-width: 481px) {
     .BigAFTitle {
-      font-family: 'RedHatDisplay-SemiBold';
+      font-family: 'Red Hat Display';
       font-size: 48px;
       line-height: 56px;
       text-align: center;
     }
     .KindaBigTitle {
-      font-family: 'RedHatDisplay-SemiBold';
+      font-family: 'Red Hat Display';
       font-size: 48px;
       line-height: 56px;
     }
@@ -179,7 +179,7 @@ html {
   }
 
   .EyecatchingTitle {
-    font-family: 'RedHatDisplay-SemiBold';
+    font-family: 'Red Hat Display';
     font-size: 36px;
   }
 
@@ -218,7 +218,7 @@ html {
     border: 2px solid #000000;
     color: #000000;
     border-radius: 45px;
-    font-family: 'RedHatDisplay-SemiBold';
+    font-family: 'Red Hat Display';
     font-size: 24px;
     background-color: #ECE7E3;
   }
@@ -228,7 +228,7 @@ html {
   border: 2px solid #000000;
   color: #FFFFFF;
   border-radius: 45px;
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: 'Red Hat Display';
   font-size: 24px;
   background-color: black;
 }
@@ -281,7 +281,7 @@ html {
   border: 2px solid #000000;
   color: #000000;
   border-radius: 45px;
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: 'Red Hat Display';
   font-size: 24px;
   background-color: #ECE7E3;
 }
@@ -297,7 +297,7 @@ html {
 
 .hover-underline-animation_2 {
   display: inline-block;
-  font-family: 'RedHatDisplay-SemiBold';
+  font-family: 'Red Hat Display';
   font-size: 36px;
   line-height: 22px;
   color: black;
