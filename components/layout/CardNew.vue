@@ -4,7 +4,7 @@
 
       <div class='card_image' style='background-color: var(--color-secondary);'>
 <!--        <img src="~/assets/Disruptive_cover.png" class='img-fluid' alt='Responsive image' />-->
-        <img :src="thumbnail" class=" "/>
+        <img :src="thumbnail" class="img-fluid"/>
       </div>
 
       <div class='CardTitle'>
@@ -52,7 +52,6 @@ export default {
 
 .card_image {
   width: 100%;
-  height: 100%;
   object-fit: cover;
 }
 

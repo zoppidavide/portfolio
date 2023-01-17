@@ -2,15 +2,15 @@
   <div class='row mt-5'>
     <div class='hero col-12 col-lg-6'>
       <div class='KindaBigTitle'>
-        {{ title }}
+        {{ title2 }}
       </div>
 
-      <div class='CardTitle'>
-        {{ title }}
+      <div class=''>
+        {{ title2 }}
       </div>
 
-      <div class='CardText'>
-        {{ bio }}
+      <div class=''>
+        {{  }}
       </div>
   </div>
 
@@ -23,11 +23,11 @@
 export default {
   name: 'HeroProg',
   props: {
-    title: String,
-    description: String,
-    role: String,
-    team: String,
-    thumbnail: String,
+    title2: String,
+    description2: String,
+    role2: String,
+    team2: String,
+    thumbnail2: String,
     tag1: String,
     tag2: String,
     tag3: String

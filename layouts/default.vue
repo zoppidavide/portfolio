@@ -13,7 +13,7 @@ export default {
   head() {
     return {
       link: [
-        {href: 'https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap', rel: 'stylesheet'}
+        {href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap',  rel: 'stylesheet'}
       ]
     }
   }
@@ -66,10 +66,7 @@ html {
   }
 
   @font-face {
-    font-family: "RedHatDisplay-SemiBold";
-    src: local("RedHatDisplay-SemiBold"),
-    url(/font/RedHatDisplay-SemiBold.ttf)
-    format("opentype");
+    font-family: 'Red Hat Display', sans-serif;
   }
 
 /*SMALL SIZE SCREEN (>481)*/
