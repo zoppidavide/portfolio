@@ -19,8 +19,12 @@ export default {
       intro: {
         Disruptive: {
           title2: 'DISRUPTIVE',
-          thumbnail2: require('~/assets/Disruptive_thumbnail.png'),
-          description2: 'A digital first exhibition born in 2020 portraying Sergio Marchionne life at Fiat',
+          thumbnail2: require('~/assets/disruptive_1.jpg'),
+          description2: 'The challenge of rebuilding. A project hiding an other challenge, being able to rethink the way people can “visit” an exhibition in a pandemic period.',
+          role2: 'Project concept, web development, mobile application UI, storytelling',
+          team2: 'Federico Pozzi, Marco Pari, Andrea Silvano, Giovanni Clericetti, Alice Bocchio, Michele Bruno',
+          to2: "https://disruptive.meetingrimini.org/",
+          link2: 'Visit the website ↗︎',
           tag1: 'bgcol2',
           tag2: 'bgcol2',
           tag3: 'bgcol2'

@@ -27,6 +27,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+
     // https://go.nuxtjs.dev/tailwindcss
   ],
 
@@ -34,7 +35,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    'bootstrap-vue/nuxt'
+    'bootstrap-vue/nuxt',
+    '@nuxt/image-edge'
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

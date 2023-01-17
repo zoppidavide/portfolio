@@ -47,7 +47,7 @@ export default {
   position: relative;
   overflow: hidden;
   /*border: 1px solid #FFFFFF;*/
-  box-shadow:0px 0px 0px 2px black inset;
+  box-shadow:0 0 0 2px black inset;
 }
 
 .card_image {

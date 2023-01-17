@@ -64,7 +64,7 @@ export default {
     transition: all 0.5s;
     padding-bottom: 30px;
 
-    font-family: RedHatDisplay-SemiBold;
+    font-family: Red Hat Display;
     font-size: 24px;
     text-align: left;
   }

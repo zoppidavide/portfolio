@@ -213,6 +213,10 @@ html {
     color: #808080;
   }
 
+  .bold {
+    font-family: AkkuratLL-Bold;
+  }
+
   .huge {
     width: 300px;
     border: 2px solid #000000;
