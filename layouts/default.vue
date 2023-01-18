@@ -53,20 +53,12 @@ html {
 
   @font-face {
     font-family: "AkkuratLL-Bold";
-    src: local("AkkuratLL-Bold"),
-    url(/font/AkkuratLL-Bold.otf)
-    format("opentype");
+    src: local("AkkuratLL-Bold"), url(/static/font/AkkuratLL-Bold.otf) format("opentype");
   }
 
   @font-face {
     font-family: "AkkuratLL-Light";
-    src: local("AkkuratLL-Light"),
-    url(/font/AkkuratLL-Light.otf)
-    format("opentype");
-  }
-
-  @font-face {
-    font-family: 'Red Hat Display', sans-serif;
+    src: local("AkkuratLL-Light"), url(/static/font/AkkuratLL-Light.otf) format("opentype");
   }
 
 /*SMALL SIZE SCREEN (>481)*/
