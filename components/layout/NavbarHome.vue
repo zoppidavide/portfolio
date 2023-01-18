@@ -28,7 +28,8 @@ export default {
   width: 120px;
   background-color: black;
   border-radius: 30px;
-  font-family: 'AkkuratLL-Bold';
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 16px;
   border: 2px solid #000000;
 }
@@ -44,7 +45,8 @@ export default {
   border: 2px solid #000000;
   color: #000000;
   border-radius: 30px;
-  font-family: 'AkkuratLL-Bold';
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
   font-size: 16px;
 }
 

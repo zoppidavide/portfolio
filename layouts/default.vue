@@ -13,7 +13,8 @@ export default {
   head() {
     return {
       link: [
-        {href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap',  rel: 'stylesheet'}
+        {href: 'https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@600&display=swap',  rel: 'stylesheet'},
+        {href: 'https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap', rel: 'stylesheet'}
       ]
     }
   }
@@ -51,15 +52,6 @@ html {
     box-shadow: 0px 0px 50px 0px #C4C4C4;
   }
 
-  @font-face {
-    font-family: "AkkuratLL-Bold";
-    src: local("AkkuratLL-Bold"), url(/static/font/AkkuratLL-Bold.otf) format("opentype");
-  }
-
-  @font-face {
-    font-family: "AkkuratLL-Light";
-    src: local("AkkuratLL-Light"), url(/static/font/AkkuratLL-Light.otf) format("opentype");
-  }
 
 /*SMALL SIZE SCREEN (>481)*/
 
@@ -76,21 +68,22 @@ html {
       line-height: 36px;
     }
     .CardTitle {
-      font-family: 'AkkuratLL-Bold';
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
       margin-top: 15px;
       font-size: 20px;
       line-height: 22px;
       color: black;
     }
     .CardText {
-      font-family: 'AkkuratLL-Light';
+      font-family: 'Lato', sans-serif;
       font-size: 18px;
       line-height: 22px;
       margin-top: 5px;
       color: #808080;
     }
     .testone {
-      font-family: 'AkkuratLL-Light';
+      font-family: 'Lato', sans-serif;
       font-size: 24px;
       line-height: 28px;
       padding-top: 3vh;
@@ -132,21 +125,22 @@ html {
       line-height: 56px;
     }
     .CardTitle {
-      font-family: 'AkkuratLL-Bold';
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
       margin-top: 20px;
       font-size: 20px;
       line-height: 22px;
       color: black;
     }
     .CardText {
-      font-family: 'AkkuratLL-Light';
+      font-family: 'Lato', sans-serif;
       font-size: 18px;
       line-height: 22px;
       margin-top: 10px;
       color: #808080;
     }
     .testone {
-      font-family: 'AkkuratLL-Light';
+      font-family: 'Lato', sans-serif;
       font-size: 36px;
       line-height: 40px;
     }
@@ -176,13 +170,13 @@ html {
   }
 
   .ReadableTextDefault {
-    font-family: 'AkkuratLL-Light';
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     line-height: 24px;
   }
 
   .ReadableText {
-    font-family: 'AkkuratLL-Light';
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
     line-height: 24px;
     margin-top: 25px;
@@ -206,7 +200,8 @@ html {
   }
 
   .bold {
-    font-family: AkkuratLL-Bold;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
   }
 
   .huge {
@@ -243,7 +238,7 @@ html {
 
 .hover-underline-animation {
   display: inline-block;
-  font-family: 'AkkuratLL-Light';
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height: 22px;
   margin-top: 10px;
