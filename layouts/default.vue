@@ -52,6 +52,14 @@ html {
     box-shadow: 0px 0px 50px 0px #C4C4C4;
   }
 
+.row-progetto {
+  padding-bottom: 100px;
+  background-color: white;
+  border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  box-shadow: 0 0 50px 0 #C4C4C4;
+}
+
 
 /*SMALL SIZE SCREEN (>481)*/
 
@@ -151,7 +159,7 @@ html {
       background-color: white;
       border-top-left-radius: 60px;
       border-top-right-radius: 60px;
-      box-shadow: 0px 0px 50px 0px #C4C4C4;
+      box-shadow: 0 0 50px 0 #C4C4C4;
     }
     .colonna-cv {
       margin-top: 15vh;
@@ -167,6 +175,7 @@ html {
   .EyecatchingTitle {
     font-family: 'Red Hat Display';
     font-size: 36px;
+    line-height: 40px;
   }
 
   .ReadableTextDefault {
@@ -314,5 +323,37 @@ html {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+
+.hover-underline-animation_3 {
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  line-height: 22px;
+  color: black;
+  position: relative;
+  /*color: var(--color-primary);*/
+}
+
+.hover-underline-animation_3:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  /*background-color: var(--color-primary);*/
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation_3:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+
 
 </style>

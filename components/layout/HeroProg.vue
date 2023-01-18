@@ -1,6 +1,13 @@
 <template>
-  <div class='row mt-5 mx-1 mx-lg-3 align-items-between'>
-    <div class='hero col-12 col-lg-6'>
+  <div class='row mt-5 mx-1 mx-lg-3 justify-content-between flex-sm-row flex-lg-row-reverse'>
+
+    <div class='hero-img col-12 col-lg-6'>
+      <div class='hero-img'>
+        <img :src="thumbnail2" class="img-fluid"/>
+      </div>
+    </div>
+
+    <div class='hero col-12 col-lg-5 mt-5 mt-lg-0'>
       <div class='KindaBigTitle'>
         {{ title2 }}
       </div>
@@ -23,17 +30,11 @@
       </div>
 
       <div class='ReadableTextDefault pt-3 pb-5'>
-        <NuxtLink :to='to2' class='no-underline'> <span class='bold'> {{ link2 }}</span> </NuxtLink>
+        <NuxtLink :to='to2' class='no-underline'> <div class='hover-underline-animation'> <span class='bold'> {{ link2 }}</span> </div> </NuxtLink>
       </div>
 
-      <div class='pt-5 mt-5'>
+      <div class=' '>
         <a href="#sezione"> <img src='~/assets/aarrooww.svg'> </a>
-      </div>
-    </div>
-
-    <div class='hero-img col-12 col-lg-6'>
-      <div class='hero-img'>
-        <img :src="thumbnail2" class="img-fluid"/>
       </div>
     </div>
 
@@ -62,6 +63,10 @@ export default {
 
 
 <style>
+.hero {
+  height: 75vh;
+}
+
 .hero-img {
   overflow: hidden;
   border-radius: 35px;
