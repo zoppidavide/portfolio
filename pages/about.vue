@@ -6,7 +6,8 @@
     <div class='row row-heroabout align-items-center mx-1 mx-lg-3'>
       <div class="col-12 col-lg-8">
         <div class='testone'>Hi! I’m Davide Zoppi, a 23 yo Italian communication and experience designer, based in Milan, Italy. Currently I’m enrolled in the last year of Communication Design master degree at Politecnico di Milano.<br>
-          <br>Negli anni dei miei studi presso l’università della strada Federico II a Napoli mi sono appassionato al design degli eventi, in particolare matrimoni, cresime e battesimi napoletani, ma anche funerali della famiglia Casamonica. Quando non sono con la mia ragazza Annunziata e non sto facendo estorsioni o scambi di persona penso al design. Jamm’è Ja!
+          <br>During my years of study, I became very attached to design as a discipline and to the design process. The design culture has become an important part of the way I do things, capable of permeating every aspect of my life.
+          In the design field I believe that teamwork is of fundamental importance, making possible to match different perspectives and experiences, leading to well-rounded solutions.
         </div>
       </div>
       <div class="col-12 col-lg-4">

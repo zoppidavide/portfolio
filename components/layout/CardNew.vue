@@ -46,8 +46,9 @@ export default {
   border-radius: 35px;
   position: relative;
   overflow: hidden;
-  /*border: 1px solid #FFFFFF;*/
-  box-shadow:0 0 0 2px black inset;
+  border: 1px solid #000000;
+  box-shadow: 0px 3px 10px 1px #b6b6b6;
+
 }
 
 .card_image {

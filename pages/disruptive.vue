@@ -41,18 +41,53 @@
         </div>
       </div>
 
+      <div class='col-12 justify-content-center align-items-center mt-3 mt-lg-5 d-flex'>
+        <div class='col-10'>
+         <div class='row'>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_9.png' class="img-fluid"/>
+          </div>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_10.png' class="img-fluid"/>
+          </div>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_11.png' class="img-fluid"/>
+          </div>
+         </div>
+          <div class='row mt-4'>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_12.png' class="img-fluid"/>
+          </div>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_13.png' class="img-fluid"/>
+          </div>
+          <div class='alone_sm col-6 col-lg-4'>
+            <img src='~/assets/disruptive_14.png' class="img-fluid"/>
+          </div>
+         </div>
+        </div>
+      </div>
+
       <div class='justify-content-center d-lg-flex mt-5' style='padding-top: 100px;'>
         <div class='col-12 col-lg-5'>
           <div class='EyecatchingTitle mx-1 mx-lg-3'>
             NARRATORS FOR<br>A GREAT STORY
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
-            Disruptive: the challenge of rebuilding is a digital exhibit, conceived for digital media. A design-centered exhibition.
+            The project was designed during the pandemic. As Covid-19 restrictions ceased,
+            we were also able to bring our project to a phisical exhibibition at Riminifiera, designing
+            a space to present the interviews and the life of Sergio Marchionne.
           </div>
         </div>
+<!--        <div class='col-12 col-lg-5'>
+           video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>-->
         <div class='col-12 col-lg-5'>
-          <iframe class='interview' width="100%" height="315" src="https://www.youtube.com/embed/VSNttCMVKhg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item interview" src="https://www.youtube.com/embed/VSNttCMVKhg" allowfullscreen></iframe>
+          </div>
         </div>
+
       </div>
 
       <div class='justify-content-center d-lg-flex alone_sm mt-3'>
