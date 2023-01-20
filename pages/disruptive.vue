@@ -146,7 +146,7 @@ export default {
       link: {
         Previous: {
           previous: 'AdOk: the future is handcrafted',
-          to3: "about"
+          to3: "adok"
         },
         Next: {
           next: 'Middle school Paolo VI',

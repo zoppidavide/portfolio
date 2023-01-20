@@ -149,8 +149,8 @@ html {
     }
     .testone {
       font-family: 'Lato', sans-serif;
-      font-size: 36px;
-      line-height: 40px;
+      font-size: 32px;
+      line-height: 38px;
     }
     .row-heroabout {
       height: 85vh;

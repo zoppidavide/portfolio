@@ -57,7 +57,7 @@ export default {
           thumbnail: require('~/assets/AdOk_thumbnail.png'),
           bio: 'An interaction design project with the aim of revitalising Italian craftsmanship',
           class: 'bgcol1',
-          to: "about"
+          to: "adok"
         },
         PaoloVI: {
           title: 'Middle School Paolo VI',
