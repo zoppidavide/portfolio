@@ -150,7 +150,7 @@ export default {
         },
         Next: {
           next: 'Middle school Paolo VI',
-          to4: "about"
+          to4: "paolovi"
         }
       }
     }

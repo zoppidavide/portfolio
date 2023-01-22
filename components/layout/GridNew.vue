@@ -64,7 +64,7 @@ export default {
           thumbnail: require('~/assets/PaoloVI_thumbnail.png'),
           bio: 'An elaborate communication project for a school that includes renewed brand identity and website',
           class: 'bgcol3',
-          to: "about"
+          to: "paolovi"
         },
         PreviewPretest: {
           title: 'Preview & Pretest',
