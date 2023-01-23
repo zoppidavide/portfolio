@@ -10,13 +10,13 @@
       <LayoutCardNew v-bind='projects.PaoloVI'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
+      <LayoutCardNew v-bind='projects.MagModa'/>
+    </b-col>
+    <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.PreviewPretest'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.LessicoVintage'/>
-    </b-col>
-    <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.MagModa'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.Persona'/>
@@ -92,7 +92,7 @@ export default {
           thumbnail: require('~/assets/MagModa_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol8',
-          to: "about"
+          to: "magmoda"
         },
         ArmaniSilos: {
           title: 'Armani Silos',

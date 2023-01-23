@@ -36,7 +36,6 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     'bootstrap-vue/nuxt',
-    '@nuxt/image-edge'
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa

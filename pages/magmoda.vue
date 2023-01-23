@@ -4,7 +4,7 @@
 
     <LayoutNavbarProjects />
 
-    <LayoutHeroProg v-bind='intro.Disruptive'/>
+    <LayoutHeroProg v-bind='intro.MagModa'/>
 
     <div id="sezione" class='row-progetto'>
 
@@ -100,14 +100,14 @@ export default {
   data () {
     return {
       intro: {
-        Disruptive: {
+        MagModa: {
           title2: 'MAG MODA',
-          thumbnail2: require('~/assets/PaoloVI_4.png'),
+          thumbnail2: require('~/assets/MagModa_0.png'),
           description2: 'Paolo VI Middle School is a private school located just outside of Milan, Italy. They are currently going through a systemic renovation and they need to connect with people through functional channels.',
-          role2: 'Brand identity, UX/UI design',
+          role2: 'Team supervision, UX/UI design, ',
           team2: 'Luca Dal Ben, Maria Nardi, Andrea Molteni, Elisabetta Vignali',
           to2: "https://disruptive.meetingrimini.org/",
-          link2: 'Visit the website︎ 🔗',
+          link2: 'Watch the video 🔗',
           tag1: 'bgcol2',
           tag2: 'bgcol2',
           tag3: 'bgcol2',
