@@ -11,68 +11,127 @@
       <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
         <div class='col-12 col-lg-5'>
           <div class='EyecatchingTitle mx-1 mx-lg-3'>
-            A NEW SET OF CORE VALUES
+            A PROCESS ANALYSIS<br>INSIDE THE MARKET
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
-            Visual, experience and experiential design seamlessly blend with storytelling giving birth to an engaging and fascinating 360º experience.<br>
-            Thanks to original content, such as illustrations, video-interviews and other digital content, Disruptive is a completely new way of exploring and approaching the great rebuilding challenge that awaits.
+            The starting point of the project was the encounter with the company
+            and its members. Since that moment the goal was to go inside the
+            dynamics of the B2B fashion industry to fully understand the
+            processes underneath.
           </div>
         </div>
         <div class='col-12 col-lg-5 alone'>
-          <img src='~/assets/PaoloVI_2.png' class="img-fluid"/>
+          <img src='~/assets/MagModa_1.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-7 alone'>
+          <img src='~/assets/MagModa_2.png' class="img-fluid"/>
+        </div>
+        <div class='d-flex col-3 alone'>
+          <img src='~/assets/MagModa_3.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
         <div class='d-flex col-10 alone'>
-          <img src='~/assets/PaoloVI_5.png' class="img-fluid"/>
-        </div>
-      </div>
-
-      <div class='col-12 justify-content-center align-items-center mt-3 mt-lg-5 d-flex'>
-        <div class='col-10'>
-          <div class='row'>
-            <div class='alone_sm col-12 col-lg-6'>
-              <img src='~/assets/PaoloVI_6.png' class="img-fluid"/>
-            </div>
-            <div class='alone_sm col-12 col-lg-6'>
-              <img src='~/assets/PaoloVI_7.png' class="img-fluid"/>
-            </div>
-          </div>
+          <img src='~/assets/MagModa_4.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
         <div class='col-12 col-lg-5'>
           <div class='EyecatchingTitle mx-1 mx-lg-3'>
-            RENEWING THE SCHOOL PRESENCE ONLINE
+            COMMUNICATING VALUES WITHIN A B2B
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
-            Visual, experience and experiential design seamlessly blend with storytelling giving birth to an engaging and fascinating 360º experience.<br>
-            Thanks to original content, such as illustrations, video-interviews and other digital content, Disruptive is a completely new way of exploring and approaching the great rebuilding challenge that awaits.
+            The focus of our work was to understand the built-in value of the
+            company and the elements of the supply chain where the competitive
+            differential was located, and finally to decode this into a message
+            to deliver to the prospect in a way that was relevant to him.
           </div>
         </div>
         <div class='col-12 col-lg-5 alone'>
-          <img src='~/assets/PaoloVI_9.png' class="img-fluid"/>
+          <img src='~/assets/MagModa_5.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
         <div class='d-flex col-10 alone'>
-          <img src='~/assets/PaoloVI_8.png' class="img-fluid"/>
+          <img src='~/assets/MagModa_6.png' class="img-fluid"/>
         </div>
       </div>
 
-      <div class='col-12 justify-content-center align-items-center mt-3 mt-lg-5 d-flex'>
-        <div class='col-10'>
-          <div class='row'>
-            <div class='alone col-12 col-lg-5'>
-              <img src='~/assets/PaoloVI_10.png' class="img-fluid"/>
-            </div>
-            <div class='alone col-12 col-lg-7'>
-              <img src='~/assets/PaoloVI_11.png' class="img-fluid"/>
-            </div>
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/MagModa_7.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
+        <div class='col-12 col-lg-5'>
+          <div class='EyecatchingTitle mx-1 mx-lg-3'>
+            INSTAGRAM CHANNEL
           </div>
+          <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
+            The touchpoint chosen to meet the prospect was instagram.  This was
+            in order to intercept a certain segment of entrepreneurs in the
+            fashion world, falling within our target audience. Thanks to a
+            social channel, the user is led to discover the business, and to
+            visit the website.
+          </div>
+        </div>
+        <div class='col-12 col-lg-5'>
+          <img src='~/assets/MagModa_9.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/MagModa_8.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/MagModa_10.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
+        <div class='col-12 col-lg-5'>
+          <div class='EyecatchingTitle mx-1 mx-lg-3'>
+            THE CAMPAIGN LANDING PAGE
+          </div>
+          <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
+            The last part of this funnel is precisely the web page, where
+            content is designed and sorted in such a way that a prospect
+            has a way to view the offer in its completeness, but is also
+            encouraged to continue learning about it, leaving a contact,
+            which is the useful conversion to the company.
+          </div>
+        </div>
+        <div class='col-12 col-lg-5'>
+          <img src='~/assets/MagModa_9.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/MagModa_11.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='col-10'>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791945513?h=c7c153ceae&autoplay=1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/MagModa_12.png' class="img-fluid"/>
         </div>
       </div>
 
@@ -103,11 +162,11 @@ export default {
         MagModa: {
           title2: 'MAG MODA',
           thumbnail2: require('~/assets/MagModa_0.png'),
-          description2: 'Paolo VI Middle School is a private school located just outside of Milan, Italy. They are currently going through a systemic renovation and they need to connect with people through functional channels.',
-          role2: 'Team supervision, UX/UI design, ',
+          description2: 'Mag Moda is a small Italian company, active in the field of B2B fashion production, but also owning a little fashion brand. They needed a strategy for an efficient digital transition, empowering them to talk directly to their target.',
+          role2: 'Team supervision, storytelling, UX/UI design',
           team2: 'Luca Dal Ben, Maria Nardi, Andrea Molteni, Elisabetta Vignali',
           to2: "https://disruptive.meetingrimini.org/",
-          link2: 'Watch the video 🔗',
+          link2: 'Read the full documentation (ITA) 🔗',
           tag1: 'bgcol2',
           tag2: 'bgcol2',
           tag3: 'bgcol2',
@@ -116,11 +175,11 @@ export default {
 
       link: {
         Previous: {
-          previous: 'Disruptive: the challenge of rebuilding',
-          to3: "disruptive"
+          previous: 'Middle school Paolo VI',
+          to3: "paolovi"
         },
         Next: {
-          next: 'Mag Moda: a SME digital transformation',
+          next: 'Preview & Pretest',
           to4: "about"
         }
       }
