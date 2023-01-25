@@ -71,21 +71,21 @@ export default {
           thumbnail: require('~/assets/PreviewPretest_thumbnail.png'),
           bio: 'A series of events promoted by students to help future designers and architects in their university pathway at Polimi',
           class: 'bgcol4',
-          to: "about"
+          to: "previewpretest"
         },
         LessicoVintage: {
           title: 'Lessico Vintage',
           thumbnail: require('~/assets/LessicoVintage_thumbnail.png'),
           bio: 'A social media influencing project on vintage shops and events in the city of Milan',
           class: 'bgcol5',
-          to: "about"
+          to: "lessicovintage"
         },
         Persona: {
           title: 'Persona',
           thumbnail: require('~/assets/Persona_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol6',
-          to: "about"
+          to: "persona"
         },
         MagModa: {
           title: 'Mag Moda: a SME digital transformation',

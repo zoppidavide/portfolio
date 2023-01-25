@@ -83,7 +83,7 @@
           </div>
         </div>
         <div class='col-12 col-lg-5'>
-          <img src='~/assets/MagModa_9.png' class="img-fluid"/>
+          <img src='~/assets/MagModa_13.png' class="img-fluid"/>S
         </div>
       </div>
 
@@ -113,7 +113,7 @@
           </div>
         </div>
         <div class='col-12 col-lg-5'>
-          <img src='~/assets/MagModa_9.png' class="img-fluid"/>
+          <img src='~/assets/MagModa_14.png' class="img-fluid"/>
         </div>
       </div>
 
