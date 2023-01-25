@@ -86,7 +86,7 @@ export default {
       intro: {
         Persona: {
           title2: 'PERSONA',
-          thumbnail2: require('~/assets/Persona_0.png'),
+          thumbnail2: require('~/assets/Persona_1.png'),
           description2: 'Persona powered by sense is a fictional brand and product that want to...',
           role2: 'Team supervision, storytelling, UX/UI design',
           team2: 'Anna Cattaneo, Pietro Capra, Simone Inverardi, Leonardo Puca',
