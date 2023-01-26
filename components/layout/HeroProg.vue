@@ -30,7 +30,7 @@
       </div>
 
       <div class='ReadableTextDefault pt-3 pb-5'>
-        <NuxtLink :to='to2' class='no-underline'> <div class='hover-underline-animation'> <span class='bold'> {{ link2 }}</span> </div> </NuxtLink>
+        <a :href='to2' class='no-underline'> <div class='hover-underline-animation'> <span class='bold'> {{ link2 }}</span> </div> </a>
       </div>
 
       <div class=' '>

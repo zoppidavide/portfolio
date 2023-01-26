@@ -25,15 +25,6 @@
       <LayoutCardNew v-bind='projects.ArmaniSilos'/>
     </b-col>
     <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.Radiomarelli'/>
-    </b-col>
-    <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.AlbiIllustrati'/>
-    </b-col>
-    <b-col cols="12" md="6" lg="4" class='prova'>
-      <LayoutCardNew v-bind='projects.PoliCatto'/>
-    </b-col>
-    <b-col cols="12" md="6" lg="4" class='prova'>
       <LayoutCardNew v-bind='projects.Negroni'/>
     </b-col>
     </div>
@@ -99,35 +90,14 @@ export default {
           thumbnail: require('~/assets/ArmaniSilos_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol9',
-          to: "about"
-        },
-        Radiomarelli: {
-          title: 'Radiomarelli',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
-          class: 'bgcol7',
-          to: "about"
-        },
-        AlbiIllustrati: {
-          title: 'Albi Illustrati',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
-          class: 'bgcol7',
-          to: "about"
-        },
-        PoliCatto: {
-          title: 'Poli - Catto',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
-          class: 'bgcol7',
-          to: "about"
+          to: "armanisilos"
         },
         Negroni: {
           title: 'Negroni',
-          thumbnail: require('~/assets/Placeholder_thumbnail.png'),
+          thumbnail: require('~/assets/Negroni_thumbnail.png'),
           bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
           class: 'bgcol7',
-          to: "about"
+          to: "negroni"
         },
       },
     }
