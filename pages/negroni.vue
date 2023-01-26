@@ -11,7 +11,7 @@
       <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
         <div class='col-12 col-lg-5'>
           <div class='EyecatchingTitle mx-1 mx-lg-3'>
-            THE SCIENCE BEHIND SOCIAL MEDIA
+            THE PRODUCT NARRATION
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
             The first output uses the complexity of a technical "blueprint"
@@ -26,6 +26,17 @@
         </div>
       </div>
 
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/Negroni_3.png' class="img-fluid"/>
+        </div>
+      </div>
+
+      <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
+        <div class='d-flex col-10 alone'>
+          <img src='~/assets/Negroni_4.png' class="img-fluid"/>
+        </div>
+      </div>
 
       <div class='row mx-3 mt-5'>
 
@@ -55,7 +66,7 @@ export default {
           title2: 'NEGRONI',
           thumbnail2: require('~/assets/Negroni_0.png'),
           description2: 'Persona powered by sense is a fictional brand and product that want to...',
-          role2: 'Project concept, storytelling, copywriting, web development',
+          role2: 'Project concept, illustration',
           team2: 'Pietro Capra, Leonardo Puca',
           to2: "",
           link2: '',
