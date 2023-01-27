@@ -87,8 +87,8 @@ export default {
           thumbnail2: require('~/assets/PreviewPretest_0.jpg'),
           description2: 'Preview & Pretest is a series of events dedicated to future design & architecture students at Politecnico di Milano. Preview is an event in which students projects are presented in order to help them in the choice of the academic course. Pretest is a three-day study event in preparation to the admission test.',
           role2: 'Brand identity, team leading, event design',
-          team2: 'Giovanni Clericetti, Tommaso Prinetti',
-          to2: "https://disruptive.meetingrimini.org/",
+          team2: 'Giovanni Clericetti, Tommaso Prinetti, Andrea Silvano',
+          to2: "https://www.instagram.com/previewpretest.la/",
           link2: 'Visit the Instagram 🔗',
         }
       },

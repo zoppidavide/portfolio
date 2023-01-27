@@ -37,7 +37,7 @@
           <span class="black">September 2019 - October 2020</span><br>
           Motion designer for Ziio Jewels<br>
         </div>
-        <a href="mailto:zoppi.davide7@gmail.com" class='no-underline'>
+        <a href="/DavideZoppi-CV.pdf" class='no-underline'>
           <button class="BigButton"><span>DOWNLOAD CV</span></button>
         </a>
       </div>

@@ -90,7 +90,7 @@ export default {
           description2: 'Lessico Vintage is an online influencing project that showcases vintage and second-hand clothing. It documents stories, places and people, creating a guide for enthusiasts and beginners who would like to know about this reality.',
           role2: 'Team supervision, storytelling, UX/UI design',
           team2: 'Maria Nardi, Andrea Molteni, Elisabetta Vignali, Alice Belardinelli, Antonio Brunetti, Mattia Tafel, Andrea Benedetto, Laura Zani',
-          to2: "https://disruptive.meetingrimini.org/",
+          to2: "https://www.instagram.com/lessicovintage/",
           link2: 'See the profile 🔗',
           tag1: 'bgcol2',
           tag2: 'bgcol2',
@@ -105,7 +105,7 @@ export default {
         },
         Next: {
           next: 'Persona',
-          to4: "about"
+          to4: "persona"
         }
       }
     }

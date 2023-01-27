@@ -54,10 +54,10 @@
 
       <div class='justify-content-center d-lg-flex mt-3 mt-lg-5'>
         <div class='col-5'>
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/792811784?h=7e79885c60&autoplay=1&loop=1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/792811784?h=7e79885c60&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
         <div class='col-5'>
-          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/792813345?h=86140e8654&autoplay=1&loop=1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+          <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/792813345?h=86140e8654&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
 
@@ -91,7 +91,7 @@ export default {
           description2: 'Persona powered by sense is a fictional brand and product that want to...',
           role2: 'Project concept, storytelling, copywriting, web development',
           team2: 'Anna Cattaneo, Pietro Capra, Simone Inverardi, Leonardo Puca',
-          to2: "https://disruptive.meetingrimini.org/",
+          to2: "",
           link2: '',
           tag1: 'bgcol2',
           tag2: 'bgcol2',
@@ -106,7 +106,7 @@ export default {
         },
         Next: {
           next: 'Armani Silos',
-          to4: "about"
+          to4: "armanisilos"
         }
       }
     }
