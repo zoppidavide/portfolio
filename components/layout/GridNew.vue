@@ -81,21 +81,21 @@ export default {
         MagModa: {
           title: 'Mag Moda: a SME digital transformation',
           thumbnail: require('~/assets/MagModa_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          bio: 'Designing a digital go-to-market strategy to allow a B2B company to reach the target and start communicating',
           class: 'bgcol8',
           to: "magmoda"
         },
         ArmaniSilos: {
           title: 'Armani Silos',
           thumbnail: require('~/assets/ArmaniSilos_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          bio: 'Harnessing the potential of design makes it possible to conceive accessible storytelling for those suffering from sensorial impairments',
           class: 'bgcol9',
           to: "armanisilos"
         },
         Negroni: {
           title: 'Negroni',
           thumbnail: require('~/assets/Negroni_thumbnail.png'),
-          bio: 'A speculative narration about interpersonal relationship possible futures in our daily life',
+          bio: 'A visual campaign to celebrate the 90th anniversary of the flagship product of a truly iconic made-in-Italy food company',
           class: 'bgcol7',
           to: "negroni"
         },
