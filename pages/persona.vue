@@ -11,16 +11,17 @@
       <div class='justify-content-center d-lg-flex' style='padding-top: 150px;'>
         <div class='col-12 col-lg-5'>
           <div class='EyecatchingTitle mx-1 mx-lg-3'>
-            THE SCIENCE BEHIND SOCIAL MEDIA
+            TAKING OFF EVERYONE'S MASK
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
-            We started by researching popular
-            trends and topics in our target audience's interests, and use that
-            to craft a unique and engaging account. Through a combination
-            of organic content creation and strategic collaborations with events, shops
-            and other accounts, we were able to rapidly build a following. Within
-            the two months duration of the projects our account reached over 3000 followers and
-            was consistently enhancing his numbers and visibility.
+            The persona kit is used in the main relational areas of everyone's life,
+            so couple, family, friendship and work. The functioning of the kit is
+            based on detecting the person's emotional state and comparing this
+            information during a short call, at the end of which the system will
+            be able to return a detailed report on the relationship, advising the
+            user whether to maintain or terminate it. The procedure is designed to
+            be repeated with a fixed cadence. With persona it is possible to take
+            off daily masks and optimize your relational life.
           </div>
         </div>
         <div class='col-12 col-lg-5 alone'>
@@ -88,7 +89,7 @@ export default {
         Persona: {
           title2: 'PERSONA',
           thumbnail2: require('~/assets/Persona_1.png'),
-          description2: 'Persona powered by sense is a fictional brand and product that want to...',
+          description2: 'Persona is a fictional narration where a product service is developed in order to ensure safe and lasting relationships for everyone. Persona allows anyone to leave the mask and see people that surrounds him without theirs.',
           role2: 'Project concept, storytelling, copywriting, web development',
           team2: 'Anna Cattaneo, Pietro Capra, Simone Inverardi, Leonardo Puca',
           to2: "",

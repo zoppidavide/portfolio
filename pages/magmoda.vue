@@ -165,7 +165,7 @@ export default {
           description2: 'Mag Moda is a small Italian company, active in the field of B2B fashion production, but also owning a little fashion brand. They needed a strategy for an efficient digital transition, empowering them to talk directly to their target.',
           role2: 'Team supervision, storytelling, UX/UI design',
           team2: 'Luca Dal Ben, Maria Nardi, Andrea Molteni, Elisabetta Vignali',
-          to2: "/provalink.pdf",
+          to2: "/DavideZoppi-CV.pdf",
           link2: 'Read the full documentation (ITA) 🔗',
           tag1: 'bgcol2',
           tag2: 'bgcol2',

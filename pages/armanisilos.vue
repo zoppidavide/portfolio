@@ -14,13 +14,13 @@
             NARRATING ARMANI AND THE COLLECTION "ETNIE"
           </div>
           <div class='ReadableTextDefault mt-3 mt-lg-5 mx-1 mx-lg-3'>
-            We started by researching popular
-            trends and topics in our target audience's interests, and use that
-            to craft a unique and engaging account. Through a combination
-            of organic content creation and strategic collaborations with events, shops
-            and other accounts, we were able to rapidly build a following. Within
-            the two months duration of the projects our account reached over 3000 followers and
-            was consistently enhancing his numbers and visibility.
+            The challenge of this project was to show how even the most inaccessible
+            works can be made usable by people who are blind, visually impaired, and deaf.
+            The project idea is to narrate "blue", a signature color of Armani,
+            and starting from its sensory perception guide the user to discover
+            the Etnie collection, exhibited at the Armani Silos.
+            The video project is accompanied by a booklet and synaesthetic boards
+            that make the experience more complete, engaging the user more.
           </div>
         </div>
         <div class='col-12 col-lg-5 alone'>

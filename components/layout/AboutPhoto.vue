@@ -3,7 +3,7 @@
 
     <div class="aboutmephoto mt-4">
 
-      <img src="~/assets/carlo.jpg" />
+      <img src="~/assets/carlo_2.png" />
 
     </div>
 
