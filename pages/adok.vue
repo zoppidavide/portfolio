@@ -19,7 +19,7 @@
             and produce insights in order to understand how to connect the analyzed category with its audience effectively.
           </div>
         </div>
-        <div class='col-12 col-lg-5'>
+        <div class='col-12 col-lg-5 mt-5 mt-lg-0'>
           <img src='~/assets/AdOk_2.png' class="img-fluid"/>
         </div>
       </div>
@@ -28,7 +28,7 @@
         <div class='alone col-12 col-lg-5'>
           <img src='~/assets/AdOk_9.png' class="img-fluid"/>
         </div>
-        <div class='col-12 col-lg-5'>
+        <div class='col-12 col-lg-5 mt-5 mt-lg-0'>
             <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/791201149?h=a154c93248" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
         </div>
       </div>
@@ -45,25 +45,25 @@
             items and experiences.
           </div>
         </div>
-        <div class='col-12 col-lg-5 alone'>
+        <div class='col-12 col-lg-5 mt-5 mt-lg-0 alone'>
           <img src='~/assets/AdOk_7.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='col-12 justify-content-center align-items-center mt-4 mt-lg-4 d-flex'>
-        <div class='d-flex col-10 alone'>
+        <div class='d-flex col-12 col-lg-10 alone'>
           <img src='~/assets/AdOk_4.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='col-12 justify-content-center align-items-center mt-3 mt-lg- d-flex'>
-        <div class='d-flex col-10 alone'>
+        <div class='d-flex col-12 col-lg-10 alone'>
           <img src='~/assets/AdOk_5.png' class="img-fluid"/>
         </div>
       </div>
 
-      <div class='col-12 justify-content-center align-items-center mt-3 mt-lg- d-flex'>
-        <div class='d-flex col-10 alone'>
+      <div class='col-12 justify-content-center align-items-center mt-3 d-flex'>
+        <div class='d-flex col-12 col-lg-10 alone'>
           <img src='~/assets/AdOk_6.png' class="img-fluid"/>
         </div>
       </div>
@@ -149,20 +149,38 @@ export default {
 
 <style>
 
-.alone img {
-  border-radius: 35px;
+/*SMALL SIZE SCREEN (<481)*/
+
+@media screen and (max-width: 480px) {
+  .alone img {
+    border-radius: 15px;
+  }
+  .alone_sm img {
+    border-radius: 15px;
+  }
+  .interview {
+    border-radius: 15px;
+  }
+  .shadow {
+    box-shadow: 0 0 20px 0 black;
+  }
 }
 
-.alone_sm img {
-  border-radius: 15px;
-}
+/*BIG SIZE SCREEN (>481)*/
 
-.interview {
-  border-radius: 15px;
-}
-
-.shadow {
-  box-shadow: 0 0 20px 0 black;
+@media screen and (min-width: 481px) {
+  .alone img {
+    border-radius: 35px;
+  }
+  .alone_sm img {
+    border-radius: 15px;
+  }
+  .interview {
+    border-radius: 15px;
+  }
+  .shadow {
+    box-shadow: 0 0 20px 0 black;
+  }
 }
 
 </style>

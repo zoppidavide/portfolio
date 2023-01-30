@@ -65,7 +65,7 @@ export default {
         Negroni: {
           title2: 'NEGRONI',
           thumbnail2: require('~/assets/Negroni_0.png'),
-          description2: 'Persona powered by sense is a fictional brand and product that want to...',
+          description2: 'To celebrate the 90th anniversary of a leading product and a real italian icon at the table Negroni asked for a visual campaign to celebrate this heritage',
           role2: 'Project concept, illustration',
           team2: 'Pietro Capra, Leonardo Puca',
           to2: "",
