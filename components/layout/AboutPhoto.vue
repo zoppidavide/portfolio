@@ -1,9 +1,9 @@
 <template>
   <div>
 
-    <div class="aboutmephoto mt-4">
+    <div class="aboutmephoto mt-4 justify-content-center">
 
-      <img src="~/assets/carlo_2.png" />
+      <img src="~/assets/carlodazzoni_2.png" />
 
     </div>
 

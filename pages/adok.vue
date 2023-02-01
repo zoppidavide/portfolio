@@ -80,19 +80,19 @@
             orders and one's products and experiences, and finally a personal profile.
           </div>
         </div>
-        <div class='col-12 col-lg-5 alone'>
+        <div class='col-12 col-lg-5 mt-5 mt-lg-0 alone'>
           <img src='~/assets/AdOk_8.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='col-12 justify-content-center align-items-center mt-3 mt-lg- d-flex'>
-        <div class='d-flex col-10 alone'>
+        <div class='d-flex col-12 col-lg-10 alone'>
           <img src='~/assets/AdOk_10.png' class="img-fluid"/>
         </div>
       </div>
 
       <div class='col-12 justify-content-center align-items-center mt-3 mt-lg- d-flex'>
-        <div class='d-flex col-10 alone'>
+        <div class='d-flex col-12 col-lg-10 alone'>
           <img src='~/assets/AdOk_11.png' class="img-fluid"/>
         </div>
       </div>
@@ -100,7 +100,7 @@
 
       <div class='row mx-3 mt-5'>
 
-        <div class='col-12 mt-5 d-flex justify-content-end'>
+        <div class='col-12 mt-5 d-sm-block d-flex justify-content-end'>
 <!--          <LayoutPrevious v-bind='link.Previous' />-->
           <LayoutNext v-bind='link.Next' />
         </div>
