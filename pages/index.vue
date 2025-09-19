@@ -8,7 +8,7 @@
 <!--    <div class='row mx-1 mx-lg-3 row-herosection align-items-end d-flex justify-content-center'>
       <div class="col-12">
         <div class='BigAFTitle'>
-          Hi, I’m Davide, 28 yo italian communication<br>
+          Hi, I’m Davide, 29 yo italian communication<br>
           and experience designer, currently enrolled<br>
           in Communication Master Degree at Polimi<br>
         </div>
